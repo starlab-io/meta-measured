@@ -76,7 +76,7 @@ FILES_${PN}-doc = " \
 inherit autotools pkgconfig useradd update-rc.d systemd
 
 INITSCRIPT_NAME = "trousers"
-INITSCRIPT_PARAMS = "start 99 2 3 4 5 . stop 19 0 1 6 ."
+INITSCRIPT_PARAMS = "start 02 2 3 4 5 . stop 01 0 1 6 ."
 
 EXTRA_OECONF="--with-gui=none"
 
